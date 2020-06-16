@@ -1,0 +1,130 @@
+@media screen and (max-width:1920px) {
+    .main .top{
+        height: auto;    
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .main .top .wrap{
+        width: 800px;
+    }
+    .main .top{
+        padding-top: 100px;
+    }
+    .main .bottom .wrap{
+        width: 100%;
+    }
+    .main .top .wrap .title .h1-wrapper h1{
+        font-size: 2.5em;
+    }
+    .main .top .wrap .title .line{
+        margin-left: 23px;
+    }
+    .main .top .wrap .title .p-wrapper{
+        width: 483px;
+    }
+    .main .top .wrap .title .p-wrapper p{
+        font-size: 2.5em;
+    }
+    .main .top .wrap .title .h1-wrapper{
+        margin-left: 30px;
+        width: 211px;
+    }
+    .main .top .wrap .title .h1-wrapper h1{
+        line-height: 120px;   
+    }
+    .main .top .wrap .content-wrapper{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:799px){
+    .main .top .wrap{
+        width: 100%;
+    }
+    .main .top .wrap .content-wrapper .img-wrapper img{
+        width: 100%;
+    }
+    .main .top .wrap .title .h1-wrapper{
+        float: none;   
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 258px;
+    }
+    .main .top .wrap .title .h1-wrapper h1{
+        font-size: 3.5em;
+        width: 100%;
+        margin-left: 358px;
+    }
+    
+    .main .top .wrap .title .line{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: 2px;
+        width: 0;
+    }
+    .main .top .wrap .title .p-wrapper{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .main .top .wrap .title .p-wrapper p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .main .top .wrap .content-wrapper .text{
+        font-size: 1.1em;
+    }
+    .main .bottom .wrap .content-wrapper{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .main .top .wrap .content-wrapper{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main .top .wrap .content-wrapper .text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main .top .wrap .title .p-wrapper{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .main .top{
+        padding-top: 45px;
+    }
+    .main .top .wrap .title .h1-wrapper h1{
+        font-size: 2.5em;
+    }
+    .main .top .wrap .title .p-wrapper{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .main .top .wrap .title .p-wrapper p{
+        font-size: 1.8em;
+    }
+    .main .top .wrap .content-wrapper .text{
+        font-size: 1em;
+    }
+    .main .top .wrap .title .line{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:360px){
+    .main .top .wrap .title .p-wrapper p{
+        font-size: 1.7em;
+    }   
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width:1280px){
+    .main{
+        padding-top: 100px;
+    }
+    .main .bottom .content-wrapper{
+        width: 1000px;
+    }
+    .main .bottom .content-wrapper .content{
+        margin-left: 12px;
+        margin-right: 11px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .main .bottom .content-wrapper{
+        width: 800px;
+    }
+    .main .bottom .content-wrapper .content{
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:800px) and (orientation:landscape){
+    .main .bottom .content-wrapper{
+        width: 100%;
+    }
+    .main .bottom .content-wrapper .content{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .bottom .content-wrapper .content .img-wrapper img{
+        vertical-align: top;
+    }
+    .main .bottom .content-wrapper .content .text-wrapper{
+        background: #fff;
+        max-height: 387px;
+    }
+    .main .bottom .content-wrapper .content{
+        background: none;
+        max-height: 620px;
+        height: auto;
+    }
+    .main .bottom .content-wrapper .content .text-wrapper h2{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .main .bottom .content-wrapper{
+        width: 100%;
+    }
+    .main .bottom .content-wrapper .content{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .bottom .content-wrapper .content .img-wrapper img{
+        vertical-align: top;
+    }
+    .main .bottom .content-wrapper .content .text-wrapper{
+        background: #fff;
+        max-height: 387px;
+    }
+    .main .bottom .content-wrapper .content{
+        background: none;
+        max-height: 620px;
+        height: auto;
+    }
+    .main .bottom .content-wrapper .content .text-wrapper h2{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .main .top .btn-wrapper{
+        width: 408px;
+    }
+    .main .top .btn-wrapper li:nth-child(5){
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .main .top .btn-wrapper{
+        width: 100%;
+    }
+}

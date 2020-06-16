@@ -1,0 +1,185 @@
+.main{
+    padding-top: 80px;
+}
+
+/* banner */
+
+.banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/green_health/fire-hydrant-947324_1920.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    
+}
+.banner h1{
+    font-size: 6em;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    opacity: 0;
+}
+.banner .line{
+    width: 1px;
+    height: 0px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.banner h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.7em;
+    color: #fff;
+    opacity: 0;
+}
+.banner h2 span{
+    font-weight: bold;
+}
+.banner p{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 60px;
+    text-align: center;
+    opacity: 0;
+}
+
+/* rule */
+
+.rule{
+    margin-top: 80px;
+    height: 1070px;
+    background: #fff;
+}
+.rule h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.7em;
+    margin-bottom: 40px;
+}
+.rule p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+} 
+.rule .wrap{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    overflow: hidden;
+    position: relative;
+    height: 750px;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+}
+.rule .wrap .article{
+    width: 1200px;
+    position: absolute;
+    transition: all ease .5s;
+}
+.rule .wrap .blue{
+    top: 0;
+    left: 0;
+}
+.rule .wrap .red{
+    top: 0;
+    left: 1200px;
+} 
+
+.rule .wrap .article h2{
+    color: #0d55a6;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.rule .wrap .article ol{
+    overflow: hidden;
+}
+.rule .wrap .article li{
+    width: 500px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 170px;
+    border: 1px solid #b9b9b9;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.rule .wrap .article li .icon{
+    float: left;
+    width: 100px;
+    margin-top: 20px;
+}
+.rule .wrap .article li .icon img{}
+.rule .wrap .article li .text-wrapper{
+    float: right;
+    width: 390px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.rule .wrap .article li .text-wrapper h3{
+    font-weight: 400;
+    color: #0d55a6;
+    margin-bottom: 20px;
+}
+.rule .wrap .article li .text-wrapper p{
+    font-weight: 300;
+    font-size: 1em;
+    text-align: left;
+}
+.rule .wrap .red h2, .rule .wrap .red li .text-wrapper h3{
+    color: #da1d3e;
+}
+
+/* circle */
+
+.circle{
+    margin-top: 400px;
+    margin-bottom: 100px;
+    transition: all ease .5s;
+}
+.circle ul{
+    overflow: hidden;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle ul li{
+
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.circle ul li .top{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 1px #000;
+    margin-top: 10px;
+}
+.circle ul li .top h1{
+    font-size: 3.8em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+}
+.circle ul li .text{
+    margin-top: 50px;
+}
+.circle ul li .text p{
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}

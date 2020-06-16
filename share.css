@@ -1,0 +1,221 @@
+.main{
+    padding-top: 80px;
+}
+.main .banner{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.main .banner .bg{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/share/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .banner h1{
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    font-size: 3.8em;
+    font-weight: bold;
+    color: #ffffff;
+    transform: translateX(-50%);
+}
+.main .banner .circle{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    height: 200px;
+    width: 0;
+    background: rgba(16,87,167,.7);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    transition: all ease .5s;
+}
+.main .banner .circle h2{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 20px;
+    opacity: 0;
+    transition: all ease .8s;
+}
+.main .banner .circle ul{
+    width: 100%;
+    margin-top: 20px;
+    opacity: 0;
+    transition: all ease .8s;
+}
+.main .banner .circle ul li{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.main .banner .circle ul li h3{
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.main .banner .circle ul li p{
+    font-weight: 100;
+    font-size: 1.8em;
+}
+
+.main .section{
+    padding-top: 100px;
+}
+.main .section .top{
+    overflow: hidden;
+}
+.main .section .top .img-wrapper{
+    float: left;
+    width: 50%;
+    position: relative;
+    height: 550px;
+}
+.main .section .top .img-wrapper .square{
+    position: absolute;
+    width: 750px;
+    height: 400px;
+    background: #2662a5;
+    bottom: 0;
+    left: 0;
+}
+.main .section .top .img-wrapper img{
+    width: 650px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.main .section .top .text-wrapper{
+    float: right;
+    width: 50%;
+}
+.main .section .top .text-wrapper h2{
+    font-size: 3.8em;
+    font-weight: 500;
+}
+.main .section .top .text-wrapper p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.main .section .mid{
+    position: relative;
+}
+.main .section .mid .square{
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    background: #badaff;
+    z-index: -1;
+    top: 400px;
+}
+.main .section .mid .first{
+    overflow: hidden; 
+}
+.main .section .mid .first .text-wrapper{
+    float: left;
+    width: 500px;
+    margin-top: 210px;
+    margin-left: 290px;
+}
+.main .section .mid .first .text-wrapper h2{
+    font-size: 3.8em;
+    font-weight: 500;
+}
+.main .section .mid .first .text-wrapper p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.main .section .mid .first .img-wrapper{
+    float: right;
+    width: 960px;
+}
+.main .section .mid .first .img-wrapper img{
+    width: 100%;
+}
+
+.main .section .mid .second{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.main .section .mid .second .text-wrapper{
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.main .section .mid .second .text-wrapper h2{
+    font-size: 3.8em;
+    font-weight: 500;
+}
+.main .section .mid .second .text-wrapper p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.main .section .mid .second .img-wrapper{
+    float: left;
+    width: 900px;
+    margin-left: 100px;
+}
+.main .section .mid .second .img-wrapper img{
+    width: 100%;
+}
+
+.main .section .bot{
+    margin-top: 100px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.main .section .bot .img-wrapper{
+    float: right;
+    width: 50%;
+    position: relative;
+    height: 900px;
+}
+.main .section .bot .img-wrapper .square{
+    width: 800px;
+    height: 460px;
+    background: #5286c2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.main .section .bot .img-wrapper img{
+    width: 890px;
+    position: absolute;
+}
+
+.main .section .bot .text-wrapper{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+.main .section .bot .text-wrapper h2{
+    font-size: 3.8em;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.main .section .bot .text-wrapper p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 100px;
+    margin-right: 50px;
+}

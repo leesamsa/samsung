@@ -1,0 +1,171 @@
+.main{
+    padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+    height: 2550px;
+}
+
+/* intro */
+
+.main .intro{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+.main .intro .wrap{
+    width: calc(100% - 300px);
+    float: left;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.main .intro .wrap .top{}
+.main .intro .wrap .top h1{
+    font-size: 10em;
+    font-weight: 400;
+}
+.main .intro .wrap .top h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4.5em;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main .intro .wrap .top h3{
+    font-size: 2.2em;
+    font-weight: 100;
+}
+.main .intro .wrap .top h3 span{
+    font-weight: 400;
+}
+.main .intro .wrap .top p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 100px;
+}
+.main .intro .wrap .top .img-wrapper{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.main .intro .wrap .top .img-wrapper img{}
+
+.main .intro .wrap .bottom{}
+.main .intro .wrap .bottom h2{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+.main .intro .wrap .bottom p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+.main .intro .btn{
+    width: 300px;
+    float: right;
+    background: #000;
+    height: 2410px;
+}
+.main .intro .btn h2{
+    color: #fff;
+    font-size: 6em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    right: 40px;
+}
+
+/* tip */
+
+.main .tip{
+    overflow: hidden;
+    position: absolute;
+    top: 280px;
+    left: 100%;
+}
+.main .tip .btn{
+    width: 300px;
+    float: left;
+    background: #fff;
+    height: 1300px;
+}
+.main .tip .btn h2{
+    font-size: 6em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 40px;
+    display: none;
+}
+
+.main .tip .wrap{
+    float: right;
+    width: calc(100% - 300px);
+    padding: 150px;
+    box-sizing: border-box;
+    background: #000;
+}
+.main .tip .wrap h1{
+    font-size: 6.2em;
+    font-weight: 300;
+    color:#fff;
+}
+.main .tip .wrap h1 span{
+    font-weight: 500;
+}
+.main .tip .wrap .text-wrapper{
+    color: #fff;
+    margin-top: 100px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.main .tip .wrap .text-wrapper li{
+    overflow: hidden;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main .tip .wrap .text-wrapper li .title{
+    font-size: 3.8em;
+    font-weight: 300;
+    float: left;
+    width: 190px;
+}
+.main .tip .wrap .text-wrapper li .text{
+    font-size: 2.2em;
+    font-weight: 300;
+    float: left;
+    width: calc(100% - 190px);
+}
+.main .tip .wrap .text-wrapper li:last-child .text{
+    line-height: 130%;
+}
+
+.main .tip .wrap .box{
+    color: #ffffff;
+    width: 300px;
+    height: 100px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3.8em;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    cursor: pointer;
+}
+

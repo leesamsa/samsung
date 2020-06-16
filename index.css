@@ -1,0 +1,389 @@
+body{
+    overflow-x: hidden;
+}
+.main{
+    
+}
+
+/* banner */
+
+.banner{
+    position: relative;
+}
+
+.banner .video-wrapper{
+    width: 100%;
+}
+.banner .video-wrapper video{
+    width: 100%;
+}
+
+.banner .text-wrapper{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: #fff;
+    overflow: hidden;
+    width: 550px;
+    height: 240px;
+}
+.banner .text-wrapper h2{
+    font-size: 4em;
+    font-weight: 300;
+    position: absolute;
+    top: -100px;
+}
+.banner .text-wrapper h1{
+    font-size: 6em;
+    position: absolute;
+    bottom: -120px;
+}
+.banner .icon-wrapper{
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    width: 520px;
+    z-index: 4;
+    margin-left: -260px;
+}
+.banner .icon-wrapper li{
+    float: left;
+    margin-right: 50px;
+    display: none;
+}
+.banner .icon-wrapper li:hover .icon{
+    background: rgba(255,255,255,.5);
+}
+.banner .icon-wrapper li:last-child{
+    margin-right: 0;
+}
+.banner .icon-wrapper li .icon{
+    width: 140px;
+    border-radius: 50%;
+    height: 140px;
+    transition: all ease .5s;
+}
+.banner .icon-wrapper li .icon a{}
+.banner .icon-wrapper li .icon a img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 120px;
+}
+.banner .icon-wrapper li h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* business */
+
+.business{
+    width: 100%;
+    height: 1500px;
+    padding-top: 100px;
+}
+.business .wrap{
+    width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.business .wrap .ship{
+    top: 0;
+    left: 0;
+}
+.business .wrap .ocean{
+    top: 500px;
+    left: 500px;
+}
+.business .wrap .lab{
+    top: 1000px;
+    right: 0;
+}
+.business .wrap .text-wrapper{
+    width: 340px;
+    height: 275px;
+    position: absolute;
+}
+.business .wrap .text-wrapper h2{
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.business .wrap .text-wrapper p{
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.business .wrap .text-wrapper p span{
+    font-weight: 500;
+}
+.business .wrap .text-wrapper .bottom{
+    overflow: hidden;
+}
+.business .wrap .text-wrapper .bottom h3{
+    font-size: 2.5em;
+    font-weight: normal;
+    float: left;
+}
+.business .wrap .text-wrapper .bottom h3 span{
+    font-weight: 500;
+}
+.business .wrap .text-wrapper .bottom .more{
+    width: 100px;
+    height: 30px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-top: 20px;
+    transition: all ease .5s;
+    background: #fff;
+}
+.business .wrap .text-wrapper .bottom .more:hover{
+    background: #000;
+}
+.business .wrap .text-wrapper .bottom .more:hover a{
+    color: #fff;
+}
+.business .wrap .text-wrapper .bottom .more a{
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: all ease .5s;
+}
+.business .wrap .img-wrapper1{
+    background: url(images/index/1.jpg);
+    width: 800px;
+    height: 325px;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+}
+.business .wrap .img-wrapper2{
+    background: url(images/index/2.jpg);
+    width: 450px;
+    height: 495px;
+    top: 285px;
+    left: 0;
+}
+.business .wrap .img-wrapper3{
+    background: url(images/index/3.jpg);
+    width: 340px;
+    height: 440px;
+    top: 500px;
+    right: 0;
+}
+.business .wrap .img-wrapper4{
+    background: url(images/index/4.jpg);
+    width: 795px;
+    height: 527px;
+    top: 860px;
+    left: 0;
+}
+.business .wrap .img-wrapper{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    position: absolute;
+    transition: all linear .3s;
+}
+.business .wrap .img-wrapper:hover{
+    background-size: 105% auto;
+}
+
+/* newscenter */
+
+.newscenter{
+    width: 100%;
+    height: 1000px;
+    background: url(images/index/news-bg.jpg) rgba(12,77,162,.6);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    position: relative;
+}
+.newscenter .wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(12,77,162,.6);
+    top: 0;
+    left: 0;
+}
+.newscenter h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 50px;
+}
+.newscenter h2 span{
+    font-weight: bold;
+}
+.newscenter .content-wrapper{
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 680px;
+}
+.newscenter .content-wrapper ul{
+    width: 100%;
+}
+.newscenter .content-wrapper ul li{
+    float: left;
+    background: url(images/index/news2.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 290px;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.newscenter .content-wrapper ul li:first-child{
+    background: url(images/index/news1.png);
+    width: 1100px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+.newscenter .content-wrapper ul li .img{
+    background: url(images/index/news3.png);
+    width: 570px;
+    height: 290px;
+    float: left;
+}
+.newscenter .content-wrapper ul li:nth-child(2),
+.newscenter .content-wrapper ul li:nth-child(5){
+    margin-right: 0;
+}
+.newscenter .content-wrapper ul li:hover h3, .newscenter .content-wrapper ul li:hover p{
+    color: #0D55A6;
+}
+.newscenter .content-wrapper ul li .text-wrapper{
+    width: 435px;
+    float: right;
+    padding-right: 20px;
+}
+.newscenter .content-wrapper ul li .text-wrapper .title{
+    padding-top: 50px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.newscenter .content-wrapper ul li .text-wrapper .title h3{
+    float: left;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.newscenter .content-wrapper ul li .text-wrapper .title .date{
+    float: right;
+    color: #aaa;
+    font-weight: 400;
+    font-size: .9em;
+    margin-top: 3px;
+    
+} 
+.newscenter .content-wrapper ul li .text-wrapper p{}
+.newscenter .content-wrapper ul li .text-wrapper .more{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.newscenter .content-wrapper ul li .text-wrapper .more:after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background: #aaa;
+    top: 100%;
+    left: 0;
+    transition: all ease-out .3s;
+}
+.newscenter .content-wrapper ul li .text-wrapper .more:hover:after{
+    width: 100%;
+}
+.newscenter .content-wrapper ul li .text-wrapper .more a{
+    color: #aaa;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.9em;
+}
+
+
+
+/* bottom */
+
+.main>.bottom{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.bottom .article1{
+    background-image: url(images/index/bottom1.jpg);
+    
+}
+.bottom .article2{
+    background-image: url(images/index/bottom2.jpg);
+}
+.bottom .article{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 105%;
+    position: relative;
+    transition: all ease .4s;
+}
+
+.bottom .article .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(12,77,162,.2);
+}
+.bottom .article:hover{
+    background-size: auto 100%;
+}
+
+.bottom .article .bg .text-wrapper{
+    position: absolute;
+    color:#fff;
+    bottom: 50px;
+    left: 30px;
+}
+.bottom .article .bg .text-wrapper h2{
+    font-weight: 500;
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+.bottom .article .bg .text-wrapper h2 a{
+    color:#fff;
+    position: relative;
+}
+.bottom .article .bg .text-wrapper h2 a:after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    top: 100%;
+    left: 0;
+    transition: all ease-out .3s;
+}
+.bottom .article .bg .text-wrapper h2:hover a:after{
+    width: 100%;
+}
+.bottom .article .bg .text-wrapper p{
+    font-size: 1.2em;
+    font-weight: 300;
+}

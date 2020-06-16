@@ -1,0 +1,256 @@
+.main{}
+
+/* intro */
+
+.intro{
+    padding-top: 80px;
+}
+.intro .wrap{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.intro .wrap .cnb{
+    top: 40px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.intro .wrap .cnb li{
+    float: left;
+    font-size: 0.9em;
+}
+.intro .wrap .cnb li a{}
+.intro .wrap .cnb li a:last-child{
+    color: #ccc;
+}
+.intro .wrap .cnb li a:hover{
+    color:#ccc;
+}
+.intro .wrap .title{
+    padding-top: 80px;
+}
+.intro .wrap h2{    
+    font-size: 4em;
+    font-weight: 400;
+    width: 100%;
+    height: 95px;
+    position: relative;
+    overflow: hidden;
+}
+.intro .wrap h2 div{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.intro .wrap h2 div span{
+    font-weight: 700;
+}
+
+.intro .wrap .content-wrapper{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.intro .wrap .content-wrapper .content{
+    float: left;
+    width: 50%;
+    padding-right: 100px;
+    box-sizing: border-box;
+    margin-left: -50px;
+    opacity: 0;
+}
+.intro .wrap .content-wrapper .content p{}
+.intro .wrap .content-wrapper .img{
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-right: -50px;
+    opacity: 0;
+}
+.intro .wrap .content-wrapper .img img{
+    width: 90%;
+}
+
+/* history */
+
+.history{
+    position: relative;
+    margin-top: 150px;
+    background: linear-gradient(180deg, rgba(28,95,171,1) 0%, rgba(103,148,199,1) 100%);
+    overflow: hidden;
+}
+.history .line{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: url(images/intro1/line.png);
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+}
+
+
+.history .article{
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+
+
+.history .article h2{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 65px;
+    left: 510px;
+}
+.history .article h3{
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    display: none;
+}
+.history .article h3 span{
+    color: #d4d4d4;
+    font-weight: 500;
+}
+.history .article ul.year{
+    overflow: hidden;
+    padding-top: 460px;
+    position: relative;
+
+}
+.history .article ul.year li{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    color: #fff;
+}
+.history .article ul.year li:nth-child(1){
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+.history .article ul.year li:nth-child(3){
+    padding-right: 200px;
+    box-sizing: border-box;
+}
+.history .article ul.year li:nth-child(4){
+    float: none;
+    width: 96px;
+    height: 62px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.history .article ul.year li:nth-child(4) img{
+    width: 100%;
+}
+.history .top ul.year li:nth-child(4), .history .bottom ul.year li:nth-child(4){
+    right: 14%;
+}
+.history .mid ul.year li:nth-child(4), .history .final ul.year li:nth-child(4){
+    left: 14%;
+}
+@keyframes ship-right{
+    0%{
+        opacity: 1;
+        right:14%;
+    }
+    90%{
+        right:82%;
+        opacity: 1; 
+    }
+    100%{
+        opacity: 0;
+        right:82%
+    }
+}
+@keyframes ship-left{
+    0%{
+        opacity: 1;
+        left:14%;
+    }
+    90%{
+        left:82%;
+        opacity: 1; 
+    }
+    100%{
+        opacity: 0;
+        left:82%
+    }
+}
+.history .article ul.year li h4{
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    opacity: 0;
+}
+.history .article ul.year li h5{
+    font-size: 2em;
+    opacity: 0;
+}
+.history .article ul.year li .circle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 114px;
+    width: 15px;
+    height: 15px;
+    background: #0D55A6;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0;
+}
+.history .article ul.year li .circle .cline{
+    display: block;
+    width: 1px; 
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    background: #fff;
+}
+.history .mid{
+    height: 600px;
+}
+.history .mid h3{
+    top: 0;
+    left: 990px;
+}
+.history .mid ul.year{
+    padding-top: 178px;
+}
+
+.history .bottom{
+    height: 600px;
+}
+.history .bottom h3{
+    top: 0;
+    left: 200px;
+}
+.history .bottom ul.year{
+    padding-top: 196px;
+}
+
+.history .final{
+    height: 600px;
+}
+.history .final h3{
+    top: 0;
+    left: 990px;
+}
+.history .final ul.year{
+    padding-top: 212px;
+}

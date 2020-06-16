@@ -1,0 +1,329 @@
+@media screen and (max-width:1200px){
+    .main{
+        padding-top: 50px;
+    }
+    .wrap .cnb{
+        padding-right: 20px;
+    }
+    .wrap{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .top h2{
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .top h1{
+        font-size: 4em;
+    }
+    .top h2{
+        font-size: 2.3em;
+    }
+    .bottom h1{
+        font-size: 4em;
+    }
+    .bottom h2{
+        font-size: 2.7em;
+    }
+}
+
+@media screen and (max-width:800px){
+    .top .banner{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .top .banner .img-wrapper{
+        width: 100%;
+    }
+    .top h1{
+        text-align: center;
+    }
+    .top h2{
+        margin-left: 0;
+        font-size: 2em;
+        text-align: center;
+    }
+    .top .banner .banner-text{
+        margin-left: auto;
+        margin-right: auto;
+        width: 647px;
+    }
+    .top ul li .title{
+        width: 225px;
+    }
+    .top ul li .text{
+        width: calc(100% - 225px);
+        font-size: 1.6em;
+    }
+    .bottom .banner{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom .banner .img-wrapper{
+        width: 100%;
+    }
+    .bottom h1{
+        text-align: center;
+    }
+    .bottom h2{
+        margin-right: 0;
+        text-align: center;
+        font-size: 2em;
+    }
+    .bottom ul li .num{
+        font-size: 8.5em;
+        width: 160px;
+    }
+    .bottom ul li .content .title{
+        font-size: 2em;
+    }
+    .bottom ul li .content .text{
+        font-size: 1.4em;
+    }
+    .bottom ul li .content{
+        width: calc(100% - 160px);
+    }
+}
+
+@media screen and (max-width:750px) and (orientation:landscape){
+    .top h2{
+        font-size: 1.8em;
+    }
+    .top .banner .banner-text{
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+    }
+    .bottom ul li .num{
+        font-size: 8em;
+        width: 140px;
+    }
+    .bottom ul li .content {
+        width: calc(100% - 140px);
+    }
+    .bottom ul li .content .title {
+        font-size: 1.8em;
+    }
+    .bottom ul li .content .text {
+        font-size: 1.3em;
+    }
+    .bottom ul li:nth-child(2), .bottom ul li:nth-child(4) {
+        margin-bottom: 110px;
+    }
+}
+
+@media screen and (max-width:640px) and (orientation:landscape){
+    .top h1 {
+        font-size: 3.5em;
+    }
+    .top h2 {
+        font-size: 1.6em;
+    }
+    .top .banner .banner-text{
+        font-size: 1.8em;
+    }
+    .top ul li .title{
+        width: 190px;
+    }
+    .top ul li .title h3{
+        font-size: 2em;
+    }
+    .top ul li .title h4{
+        font-size: 1.4em;
+    }
+    .top ul li .text {
+        width: calc(100% - 190px);
+        font-size: 1.5em;
+    }
+    .bottom h1{
+        font-size: 3.5em;
+    }
+    .bottom h2{
+        font-size: 1.8em;
+    }
+    .bottom ul li .num{
+        font-size: 7em;
+        width: 120px;
+    }
+    .bottom ul li .content {
+        width: calc(100% - 120px);
+    }
+    .bottom ul li .content .title {
+        font-size: 1.6em;
+    }
+    .bottom ul li .content .text {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .top h1 {
+        font-size: 2.5em;
+    }
+    .top h2{
+        font-size: 1.4em;
+    }
+    .top h2 br{
+        display: none;
+    }
+    .top .banner .banner-text{
+        width: 100%;
+    }
+    .top .banner .banner-text{
+        font-size: 1.5em;
+    }
+    .top .banner .banner-text br{
+        display: none;
+    }
+    .top ul li .title {
+        width: 137px;
+    }
+    .top ul li .title h3{
+        font-size: 1.6em;
+    }
+    .top ul li .title h4{
+        font-size: 1.1em;
+        text-indent: 22px;
+    }
+    .top ul li .text {
+        width: calc(100% - 137px);
+        font-size: 1.3em;
+    }
+    .bottom h1{
+        font-size: 2.5em;
+    }
+    .bottom h2{
+        font-size: 1.5em;
+    }
+    .bottom ul {
+        margin-top: 90px;
+    }
+    .bottom ul li .num,
+    .bottom ul .right .num{
+        font-size: 5.5em;
+        width: 110px;
+    }
+    .bottom ul li .content,
+    .bottom ul .right .content {
+        width: calc(100% - 110px);
+    }
+    .bottom ul li .content .title {
+        font-size: 1.5em;
+    }
+    .bottom ul li .content .text {
+        font-size: 1.2em;
+    }
+    .bottom ul li .content .text br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .wrap{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .top h1 {
+        font-size: 2em;
+    }
+    .top h2 {
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+    .top .banner .banner-text {
+        font-size: 1.3em;
+    }
+    .top ul li .title {
+        width: 128px;
+    }
+    .top ul li .title h3 {
+        font-size: 1.4em;
+    }
+    .top ul li .title h4{
+        font-size: 1em;
+        text-indent: 18px;
+    }
+    .top ul li .text {
+        width: calc(100% - 128px);
+        font-size: 1.2em;
+    }
+    .bottom h1 {
+        font-size: 2em;
+    }
+    .bottom h2 {
+        font-size: 1.4em;
+    }
+    .bottom h2 br{
+        display: none;
+    }
+    .bottom ul li .num, .bottom ul .right .num {
+        font-size: 4.5em;
+        width: 90px;
+    }
+    .bottom ul li .content, .bottom ul .right .content {
+        width: calc(100% - 90px);
+    }
+    .bottom ul li .content .title{
+        margin-bottom: 20px;
+    }
+    .bottom ul li .content .text {
+        font-size: 1.1em;
+    }
+    .bottom ul li:nth-child(2), .bottom ul li:nth-child(4) {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .wrap {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .top h1 {
+        font-size: 1.8em;
+    }
+    .top h2 {
+        font-size: 1.15em;
+    }
+    .top .banner .banner-text {
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+    .top ul li .title {
+        width: 113px;
+    }
+    .top ul li .title h3 {
+        font-size: 1.2em;
+    }
+    .top ul li .title h4 {
+        font-size: .9em;
+        text-indent: 16px;
+    }
+    .top ul li .text {
+        width: calc(100% - 113px);
+        font-size: 1em;
+    }
+    .bottom h2 {
+        font-size: 1.3em;
+    }
+    .bottom ul li .content .title {
+        font-size: 1.25em;
+    }
+    .bottom ul li .num, .bottom ul .right .num {
+        font-size: 3.5em;
+        width: 67px;
+    }
+    .bottom ul li .content, .bottom ul .right .content {
+        width: calc(100% - 67px);
+    }
+    .bottom ul li .content .text {
+        font-size: 1em;
+    }
+}

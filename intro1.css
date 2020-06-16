@@ -1,0 +1,232 @@
+.main{}
+
+
+/* intro */
+
+.intro{
+    padding-top: 80px;
+}
+.intro .wrap{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.intro .wrap .cnb{
+    top: 40px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.intro .wrap .cnb li{
+    float: left;
+    font-size: 0.9em;
+}
+.intro .wrap .cnb li a{}
+.intro .wrap .cnb li a:last-child{
+    color: #ccc;
+}
+.intro .wrap .cnb li a:hover{
+    color:#ccc;
+}
+.intro .wrap .title{
+    padding-top: 80px;
+}
+.intro .wrap h2{    
+    font-size: 4em;
+    font-weight: 400;
+    width: 100%;
+    height: 95px;
+    position: relative;
+    overflow: hidden;
+}
+.intro .wrap h2 div{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.intro .wrap h2 div span{
+    font-weight: 700;
+}
+
+.intro .wrap .content-wrapper{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.intro .wrap .content-wrapper .content{
+    float: left;
+    width: 50%;
+    padding-right: 100px;
+    box-sizing: border-box;
+    margin-left: -50px;
+    opacity: 0;
+}
+.intro .wrap .content-wrapper .content p{}
+.intro .wrap .content-wrapper .img{
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-right: -50px;
+    opacity: 0;
+}
+.intro .wrap .content-wrapper .img img{
+    width: 90%;
+}
+
+/* history */
+
+.history{
+    position: relative;
+    margin-top: 150px;
+    background: linear-gradient(180deg, rgba(28,95,171,1) 0%, rgba(103,148,199,1) 100%);
+}
+.history img{
+    vertical-align: top;
+}
+
+.history .article{
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -25px;
+}
+.history .article1{
+    padding-top: 100px;
+}
+.history .article h2{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+.history .article .line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.history .article .line img{
+    width: 100%;
+}
+.history .article h3{
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 800px;
+    text-align: center;
+    display: none;
+}
+.history .article h3 span{
+    color: #d4d4d4;
+    font-weight: 500;
+}
+.history .article .year{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.history .article .year li{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.history .article .year li h5{
+    font-size: 1.5em;
+    color: #ffffff;
+    transition: all ease .5s;
+    opacity: 0;
+}
+.history .article .year li h4{
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all ease .5s;
+    opacity: 0;
+}
+.history .article .year li .cline{
+    width: 1px;
+    height: 80px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    transition: all ease .5s;
+    opacity: 0;
+}
+.history .article .year li .circle{
+    width: 25px;
+    height: 25px;
+    background: #0D55A6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.history .article .ship{
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.history .article1 .ship,
+.history .article3 .ship{
+    right: 10%;
+}
+.history .article2 .ship,
+.history .article4 .ship{
+    left: 10%;
+}
+.history .article .ship img{}
+.history .article5{
+    height: 400px;
+}
+@keyframes ship-right{
+    0%{
+        opacity: 1;
+        right:10%;
+    }
+    90%{
+        right:80%;
+        opacity: 1; 
+    }
+    100%{
+        opacity: 0;
+        right:80%
+    }
+}
+@keyframes ship-left{
+    0%{
+        opacity: 1;
+        left:10%;
+    }
+    90%{
+        left:80%;
+        opacity: 1; 
+    }
+    100%{
+        opacity: 0;
+        left:80%
+    }
+}

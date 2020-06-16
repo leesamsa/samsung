@@ -1,0 +1,45 @@
+@media screen and (max-width:1200px) {
+    .main{
+        padding-top: 50px;
+    }
+    .main .wrap{
+        width: 100%;
+    }
+    .main h1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main .wrap .cnb{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .main h1{
+        font-size: 3.1em;
+    }
+    .main section .article{
+        float: none;
+        width: 100%;
+    }
+    .main section .left{
+        padding-bottom: 0;
+    }
+    .main section .left .img-wrapper {
+        display: block;
+    }
+    .main section .right{
+        padding-top: 0;
+    }
+    .main section .right .img-wrapper{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px){
+    .main h1 {
+        font-size: 2.1em;
+    }
+    .main section{
+        margin-top: 0;
+    }
+}

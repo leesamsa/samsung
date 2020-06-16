@@ -1,0 +1,80 @@
+.main{}
+.fp-tableCell{
+
+}
+
+.main .section{}
+.main .section .wrap{
+    height: 100vh;
+    width: 100%;
+}
+.main .section .wrap article{
+    width: 50%;
+    height: calc(50% - 40px);
+    float: left;
+    overflow: hidden;
+}
+.main .section .wrap article .top{
+    font-size: 3em;
+    font-weight: normal;
+    padding-left: 40px;
+    color: #fff;
+}
+.main .section .wrap article .top span{
+    font-weight: bold;
+}
+.main .section .wrap article .bottom{
+    font-size: 3em;
+    font-weight: normal;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 40px;
+    color: #fff;
+}
+.main .section .wrap article .bottom span{
+    font-weight: bold;
+}
+
+.main .section .wrap article .text-wrapper{
+    float: left;
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.main .section .wrap article .text-wrapper h2{
+    font-size: 2.2em;
+}
+.main .section .wrap article .text-wrapper h3{
+    font-size: 1.5em;
+    color: #0d55a6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.main .section .wrap article .text-wrapper p{}
+
+.main .section .wrap article .img-wrapper{
+    float: left;
+    width: 40%;
+    padding-top: 30px;
+}
+.main .section .wrap article .img-wrapper img{}
+
+.main .section .wrap .article1,
+.main .section .wrap .article4{
+    background: #0D55A6;   
+}
+.main .section .wrap .article1 h2,
+.main .section .wrap .article4 h2,
+.main .section .wrap .article1 p,
+.main .section .wrap .article4 p{
+    color: #fff;
+}
+.main .section .wrap .article1 .text-wrapper  h3,
+.main .section .wrap .article4 .text-wrapper  h3{
+    color: #92c5ff;
+}
+.main .section .wrap .article1,
+.main .section .wrap .article2{
+    margin-top: 80px;
+}

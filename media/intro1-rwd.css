@@ -1,0 +1,250 @@
+@media screen and (max-width:1200px){
+    .intro{
+        padding-top: 50px;
+    }
+    .intro .wrap .cnb{
+        right: 20px;
+    }
+    .intro .wrap{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .history .article{
+        width: 1080px;
+        height: 630px;
+        margin-top: -22px;
+    }
+    .history .article .year li .circle{
+        width: 22px;
+        height: 22px;
+    }
+    .history .article5{
+        height: 360px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .intro .wrap .content-wrapper .content{
+        padding-right: 20px;
+    }
+    .history .article{
+        width: 960px;
+        height: 560px;
+        margin-top: -20px;
+    }
+    .history .article .year li .circle{
+        width: 20px;
+        height: 20px;
+    }
+    .history .article5{
+        height: 320px;
+    }
+    .history .article .year li h5{
+        font-size: 1.3em;
+    }
+    .history .article .year li h4{
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width:800px){
+    .intro .wrap h2{
+        font-size: 3em;
+        height: 70px;
+    }
+    .intro .wrap .content-wrapper .content{
+        width: 100%;
+        float: none;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    
+    .intro .wrap .content-wrapper .img{
+        float: none;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .intro .wrap .content-wrapper .img img{
+        width: 100%;
+    }
+    .history{
+        margin-top: 120px;
+    }
+    .history .article{
+        width: 720px;
+        height: 420px;
+        margin-top: -15px;
+    }
+    .history .article h2{
+        font-size: 3em;
+        top: 13%;
+    }
+    .history .article h3{
+        font-size: 2.5em;
+        top: 18%;
+    }
+    .history .article1 h3{
+        top: 34%;
+    }
+    .history .article .year li .circle{
+        width: 15px;
+        height: 15px;
+    }
+    .history .article5{
+        height: 240px;
+    }
+    .history .article .year li h5{
+        font-size: 1.2em;
+        width: 200px;
+        height: 56px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .history .article .year li h4{
+        font-size: 3em;
+    }
+    
+}
+
+@media screen and (max-width:750px) and (min-width:640px) and (orientation:landscape){
+    .history .article{
+        width: 600px;
+        height: 350px;
+        margin-top: -12px;
+    }
+    .history .article .year li .circle{
+        width: 12px;
+        height: 12px;
+    }
+    .history .article5{
+        height: 200px;
+    }
+    .history .article h2{
+        font-size: 2.5em;
+        top: 16.5%;
+    }
+    .history .article .year li h5 {
+        font-size: 1em;
+        width: 112px;
+        height: 47px;
+    }
+    .history .article .year li h4{
+        font-size: 2em;
+    }
+    .history .article .year li .cline{
+        height: 60px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+    .history .article h3{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .intro .wrap{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .intro .wrap h2 {
+        font-size: 1.5em;
+        height: 36px;
+    }
+    .intro .wrap .content-wrapper{
+        margin-top: 0;
+    }
+    .intro .wrap .content-wrapper .content{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .history .article{
+        width: 360px;
+        height: 210px;
+        margin-top: -7px;
+    }
+    .history .article .year li .circle{
+        width: 7px;
+        height: 7px;
+    }
+    .history .article5{
+        height: 119.5px;
+    }
+    .history .article h2 {
+        font-size: 1.9em;
+        left: 5px;
+        top: 18%;
+    }
+    .history .article1 {
+        padding-top: 75px;
+    }
+    .history .article .year li .cline{
+        height: 25px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .history .article .ship{
+        width: 50px;
+    }
+    .history .article .ship img{
+        width: 100%;
+    }
+    .history .article .year li h4{
+        font-size: 2em;
+    }
+    .history .article .year li h5{
+        font-size: .95em;
+        width: 105px;
+        height: 38px;
+    }
+    .history .article h3{
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .history .article h3{
+        top: 11%;
+    }
+    .history .article1 h3{
+        top: 35%;
+    }
+}
+
+@media screen and (max-width:360px){
+    .history {
+        margin-top: 45px;
+    }
+    .history .article{
+        width: 300px;
+        height: 175px;
+        margin-top: -6px;
+    }
+    .history .article5{
+        height: 100px;
+    }
+    .history .article1 {
+        padding-top: 50px;
+    }
+    .history .article h2 {
+        font-size: 1.5em;
+        left: 5px;
+        top: 16%;
+    }
+    .history .article h3{
+        font-size: 1.2em;
+    }
+    .history .article .year li h4 {
+        font-size: 1.2em;
+    }
+    .history .article .year li .cline{
+        height: 15px;
+    }
+    .history .article .year li h5 {
+        font-size: 0.8em;
+        width: 79px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,179 @@
+@media screen and (max-width:1919px){
+    .main .intro .wrap{
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width:1600px){
+    .main .intro .wrap{
+        padding: 60px;
+    }
+    .main .tip .wrap{
+        padding: 140px;
+    }
+    .main .tip .wrap .text-wrapper{
+        margin-top: 55px;
+    }
+    .main .intro .wrap .top h1{
+        font-size: 7em;
+    }
+    
+    .main .tip .wrap h1{
+        font-size: 5.2em;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .main .intro .wrap .top h2{
+        font-size: 3.5em;
+    }
+    .main .intro .wrap .top h3{
+        font-size: 1.8em;
+    }
+    .main .intro .wrap .top p{
+        margin-top: 70px;
+    }
+    .main .tip .wrap h1 {
+        font-size: 4.2em;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .main .lnb-wrapper .wrap{
+        width: 100%;
+    }
+    .main{
+        padding-top: 50px;
+        height: auto;
+    }
+    .main .intro{
+        position: static;
+        top: 0;
+        left: 0;
+    }
+    .main .intro .wrap{
+        width: 100%;
+    }
+    .main .intro .btn{
+        display: none;
+    }
+    .main .tip{
+        position: static;
+        top: 0;
+        left: 0;
+    }
+    .main .tip .wrap{
+        width: 100%;
+        float: none;
+        background: #ffffff;
+        padding-top: 20px;
+    }
+    .main .tip .wrap h1{
+        color: #000;
+        font-size: 3.7em;
+    }
+    .main .tip .wrap .text-wrapper{
+        color: #000000;
+    }
+    .main .tip .wrap .box{
+        color: #000;
+        border: 2px solid #000;
+    }
+    .main .tip .btn{
+        display: none;    
+    }
+}
+
+@media screen and (max-width:1024px){
+    .main .lnb-wrapper{
+        display: none;
+    }
+    .main .intro .wrap .top .img-wrapper{
+        margin-left: 0;
+    }
+    .main .intro .wrap .top .img-wrapper img{
+        width: 100%;
+    }
+    .main .tip .wrap h1{
+        font-size: 3em;
+    }
+    .main .tip .wrap .text-wrapper{
+        padding: 0;
+    }
+    .main .tip .wrap .text-wrapper li .title{
+        font-size: 2.8em;
+    }
+    .main .tip .wrap .text-wrapper li .text{
+        font-size: 1.8em;
+    }
+    .main .tip .wrap{
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width:799px){
+    .main .intro .wrap{
+        padding: 50px;
+        padding-bottom: 0;
+    }
+    .main .tip .wrap{
+        padding: 50px;
+    }
+    .main .tip .wrap .text-wrapper li .title {
+        font-size: 2.2em;
+        width: 110px;
+    }
+    .main .tip .wrap .text-wrapper li .text{
+        width: calc(100% - 110px);
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (max-width:599px){
+    .main .intro .wrap .top h1{
+        font-size: 6em;
+        text-align: center;
+    }
+    .main .intro .wrap .top h2{
+        margin-top: 0;
+        text-align: center;
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:480px){
+    .main .intro .wrap{
+        padding: 30px;
+    }
+    .main .intro .wrap .top p{
+        font-size: 1.2em;
+    }
+    .main .intro .wrap .top h2{
+        margin-top: 40px;
+    }    
+    .main .tip .wrap h1{
+        font-size: 2em;
+    }
+    .main .tip .wrap .text-wrapper{
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .main .intro .wrap .top h1{
+        font-size: 5em;
+    }
+    .main .tip .wrap{
+        padding: 25px;
+    }
+    .main .tip .wrap .text-wrapper li .text{
+        font-size: 1.2em;
+    }
+    .main .tip .wrap .text-wrapper li .title{
+        font-size: 2em;
+    }
+    .main .tip .wrap .box{
+        margin-top: 0;
+    }
+}

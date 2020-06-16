@@ -1,0 +1,232 @@
+.main{}
+
+.main .top-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/recruit_guide/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+.main .top-banner h1{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.2em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.main .top-banner h1 span{
+    color: #beddff;
+}
+
+.main .top{}
+.main .top .wrap{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .top .wrap .top-line{
+    width: 0;
+    height: 1px;
+    background: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .top .wrap h2{
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0;
+}
+.main .top .wrap .text-wrapper{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    opacity: 0;
+    padding-top: 40px;
+}
+.main .top .wrap .text-wrapper h3{
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.main .top .wrap .text-wrapper p{
+    font-size: 1.1em;
+    font-weight: 100;
+}
+.main .top .wrap .order{
+    overflow: hidden;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .top .wrap .order li{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.main .top .wrap .order li:nth-child(1){
+    background: #93A6BA;
+}
+.main .top .wrap .order li:nth-child(2){
+    background: #6A88A9;
+}
+.main .top .wrap .order li:nth-child(3){
+    background: #4E77A5;
+}
+.main .top .wrap .order li:nth-child(4){
+    background: #396CA4;
+}
+.main .top .wrap .order li:nth-child(5){
+    background: #2762A3;
+}
+.main .top .wrap .order li:nth-child(6){
+    background: #1155A4;
+}
+.main .top .wrap .order li .num{
+    color:#fff;
+    font-size: 3.8em;
+    line-height: 90%;
+    text-indent: 10px;
+}
+.main .top .wrap .order li h4{
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.5em;
+    top: 50%;
+    right: 0;
+    width: 80%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.main .top .wrap .bottom-line{
+    width: 40%;
+    height: 1px;
+    background: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .bottom-banner */
+
+.main .bottom-banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/recruit_guide/center-banner.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+/* bottom */
+
+.main .bottom{}
+.main .bottom h2{
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0;
+}
+.main .bottom .mo-box{
+    display: block;
+    overflow: hidden;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: none;
+}
+
+.main .bottom .mo-box li{
+    width: 50%;
+    float: left;
+    height: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.main .bottom .mo-box li.active{
+    background: #034EA2;
+    color: #fff;
+}
+.main .bottom .line{
+    height: 1px;
+    width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.main .bottom ul{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    min-height: 409px;
+}
+.main .bottom ul li{
+    float: left;
+    width: 33.3333%;
+    opacity: 0;
+}
+.main .bottom ul li .text{
+    width: 260px;
+    height: 150px;
+    background: #ddd;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .bottom ul li .text:after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-color: #ddd transparent transparent transparent;
+    border-width: 20px;
+}
+.main .bottom ul li .text p{
+    padding: 15px;
+}
+.main .bottom ul li .icon{
+    width: 260px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.main .bottom ul li .icon img{}
+.main .bottom ul li h4{
+    text-align: center;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    font-size: 1.2em;
+    font-weight: 400;
+}

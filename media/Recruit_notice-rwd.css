@@ -1,0 +1,112 @@
+@media screen and (max-width: 1024px){
+    .main{
+        height: 1280px;
+    }
+    .main .faq dl dt{
+        font-size: 1.4em;
+    }
+    .main .faq dl dt.show + dd{
+        max-height: 375px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .main{
+        height: auto;
+    }
+    .main .section{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .main .notice dl dt{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main .notice dl dt .text-wrapper h2{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width:480px){
+    .main .faq{
+        margin-top: 60px;
+    }
+    .main .faq dl{
+        padding: 30px;
+    }
+    .main .notice dl{
+        padding: 25px;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .main{
+        padding-top: 110px;    
+    }
+    .main .notice dl dt .text-wrapper{}
+    .main .notice dl dt.show + dd{
+        max-height: 680px;
+    }
+    .main .notice dl dt .text-wrapper h2{
+        font-size: 1.3em;
+    }
+    .main .notice dl dt .text-wrapper h3{
+        font-size: 1.1em;
+    }
+    .main .faq dl dt{
+        font-size: 1.2em;
+    }
+    .main .faq dl dd .a{
+        font-size: 1.2em;
+    }
+    .main .faq dl dt.show + dd{
+        max-height: 425px;
+    }
+}
+@media screen and (max-width:360px) {
+    .main .notice dl dt{
+        padding: 10px;
+    }
+    .main .notice dl dt .text-wrapper h2{
+        font-size: 1.2em;
+    }
+    .main .notice dl dt .btn{
+        line-height: 40px;
+        height: 40px;
+        width: 100px;
+        margin-top: 10px;
+    }
+    .main .notice dl dt .btn img{
+        width: 22px;
+        left: 8px;    
+    }
+    .main .notice dl dt .btn p{
+        width: 72px;
+    }
+    .main .notice dl dt.show + dd{
+        max-height: 760px;
+    }
+    .main .faq dl{
+        padding: 15px;
+    }
+    .main .faq dl dt{
+        font-size: 1.1em;
+    }
+    .main .faq dl dd .a{
+        font-size: 1.1em;
+        width: 15px;
+    }
+    .main .faq dl dd p{
+        width: calc(100% - 26px);
+    }
+}
+
+@media screen and (max-width:320px){
+    .main .notice dl{
+        padding: 15px;
+    }    
+}

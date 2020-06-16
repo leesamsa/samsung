@@ -1,0 +1,121 @@
+@media screen and (max-width: 1280px){
+    .main{
+        padding-top: 50px;
+    }
+    
+    .main .top-banner{
+        background-size: auto 100%;
+    }
+    .main .top-banner h1{
+        width: 550px;
+    }
+    .main .bottom ul{
+        width: 100%;
+    }
+    .main .bottom ul li{
+        width: 50%;
+    }
+    .main .top .wrap{
+        width: 100%;
+    }
+    .main .top .wrap h2{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .main .top .wrap .order{
+        width: 800px;
+    }
+    .main .top .wrap .order li{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .main .bottom-banner{
+        background-size: auto 100%;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .main .top .wrap .order{
+        width: 100%;
+    }
+    .main .top .wrap .order li{
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .main .top .wrap .text-wrapper{
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 600px){
+    .main .top .wrap .text-wrapper{
+        width: 100%;
+    }
+    .main .top-banner h1{
+        width: 100%;
+        font-size: 1.9em;
+    }
+    .main .bottom .mo-box{
+        display: block;
+    }
+    .main .bottom ul li{
+        width: 100%;
+        display: none;
+    }
+    .main .bottom ul li:first-child{
+        display: block;
+    }
+    .main .top .wrap .order li h4{
+        font-size: 1.4em;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .main .top .wrap .order li{
+        width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main .bottom-banner{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .main .top-banner h1{
+        font-size: 1.6em;
+        top: 40%;
+    }
+    .main .top .wrap h2{
+        font-size: 1.2em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main .top .wrap .order li{
+        height: 80px;
+        margin-top: 10px;
+    }
+    .main .bottom-banner{
+        margin-bottom: 70px;
+    }
+    .main .bottom h2{
+        font-size: 2em;
+    }
+    .main .bottom{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .main .top-banner h1{
+        font-size: 1.4em;
+    }
+}

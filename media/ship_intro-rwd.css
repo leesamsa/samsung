@@ -1,0 +1,304 @@
+@media screen and (max-width:1600px){
+    .main .overview .article h2{
+        font-size: 2.8em;
+        padding-bottom: 15px;
+    }
+    .main .overview .article{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .main .overview .wrapper{
+        height: 56vh;
+    }
+    .main .overview .center-banner{
+        height: 44vh;
+    }
+    .main .overview .center-banner p{
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width:1366px){
+    .main .overview .article h2{
+        font-size: 2.5em;
+    }
+    .main .overview .wrapper{
+        height: 65vh;
+    }
+    .main .overview .center-banner{
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .main .banner .banner-bg p{
+        font-size: 3.5em;
+    }
+    .main .overview .article{
+        padding: 15px;
+    }
+    .main .overview .wrapper{
+        height: 61vh;
+    }
+    .main .overview .center-banner{
+        height: 39vh;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .main .banner .banner-bg p{
+        font-size: 2.9em;
+    }
+    .main .banner .banner-bg .line{
+        top: 54%;
+    }
+    .main .overview .center-banner p{
+        font-size: 2.1em;
+    }
+    .main .overview .article h2{
+        font-size: 2em;
+    }
+    .main .overview .wrapper{
+        height: 71vh;
+    }
+    .main .overview .center-banner{
+        height: 29vh;
+    }
+    .main .overview .center-banner p{
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .main .overview{
+        height: 300vh;
+    }
+    .main .overview .wrapper{
+        height: 200vh;
+    }
+    .main .overview .article{
+        height: 100vh;
+        width: 100%;
+        background: #ffffff;
+        padding: 110px;
+        box-sizing: border-box;
+    }
+    .main .overview .right{
+        border-left: none;
+        border-top: 1px solid #000;
+    }
+    .main .overview .article h2{
+        font-size: 3.8em;
+        padding-bottom: 40px;
+    }
+    .main .overview .article p {
+        font-size: 1.1em;
+    }
+    .main .overview .center-banner{
+        height: 100vh;
+    }
+    .main .graph{
+        margin-top: 0;
+    }
+    .main .overview .center-banner .line{
+        top: 25%;
+    }
+    .main .overview .center-banner p{
+        font-size: 2.8em;
+        width: 530px;
+    }
+}
+
+@media screen and (max-width:970px){
+    .main .banner .banner-bg .square-wrapper{
+        top: 110px;
+    }
+    .main .banner .banner-bg p{
+        font-size: 2.7em;
+        width: 500px;
+    }
+    .main .overview .article{
+        padding: 65px;
+    }
+}
+
+@media screen and (max-width:800px) and (orientation:portrait){
+    .main .overview .article h2{
+        font-size: 2.8em;
+    }
+    .main .overview .article{
+        padding: 40px;
+        height: auto;
+        max-height: 100vh;
+    }
+    .main .overview .wrapper{
+        height: auto;
+        max-height: 200vh;
+    }
+    .main .overview{
+        height: auto;
+        max-height: 300vh;
+    }
+    .main .overview .center-banner {
+        height: 550px;
+    }
+    .main .banner .banner-bg .square-wrapper{
+        top: 225px;
+        left: 170px;
+    }
+    .main .banner .banner-bg .line {
+        top: 38%;
+    }
+    .main .banner .banner-bg p {
+        font-size: 3.7em;
+        width: 663px;
+        bottom: 200px;
+    }
+    .main .banner .banner-bg .square-wrapper .square1,
+    .main .banner .banner-bg .square-wrapper .square2{
+        width: 410px;
+        height: 120px;
+    }
+    .main .banner .banner-bg .square-wrapper h1{
+        font-size: 2.4em;
+    }
+    
+}
+
+@media screen and (max-width:800px) and (orientation:landscape){
+    .main .banner .banner-bg .square-wrapper h1{
+        font-size: 1.8em;
+    }
+    .main .banner .banner-bg .square-wrapper{
+        top: 80px;
+    }
+    .main .banner .banner-bg .square-wrapper .square1,
+    .main .banner .banner-bg .square-wrapper .square2{
+        width: 325px;
+        height: 90px;
+    }
+    .main .banner .banner-bg p{
+        bottom: 30px;
+    }
+    .main .overview .article{
+        padding: 20px;
+    }
+    .main .overview .article h2{
+        font-size: 2.1em;
+        padding-bottom: 20px;
+    }
+    .main .overview .article p {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:750px) and (min-width:640px) and (orientation:landscape){
+    .main .banner .banner-bg .square-wrapper{
+        top: 45px;
+    }
+    .main .banner .banner-bg .square-wrapper h1{
+        font-size: 1.3em;
+        top: 47px;
+    }
+    .main .banner .banner-bg .square-wrapper .square1, .main .banner .banner-bg .square-wrapper .square2 {
+        width: 254px;
+        height: 60px;
+    }
+    .main .banner .banner-bg .square-wrapper .square1{
+        bottom: -85px;
+        top: auto;
+    }
+    .main .banner .banner-bg p{
+        font-size: 1.7em;
+        bottom: 55px;
+    }
+    .main .overview{
+        height: auto;
+        max-height: 600vh;
+    }
+    .main .overview .wrapper{
+        height: auto;
+        max-height: 400vh;
+    }
+    .main .overview .article{
+        height: auto;
+        max-height: 400vh;
+    }
+    .main .overview .center-banner p{
+        font-size: 1.8em;
+    }
+    .main .graph h2{
+        font-size: 2.8em;
+    }
+    .main .graph .img-wrapper img{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:629px){
+    .main .graph .img-wrapper img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .main .overview{
+        height: auto;
+        min-height: 300vh;
+    }
+    .main .overview .wrapper{
+        height: auto;
+        min-height: 200vh;
+    }
+    .main .overview .article{
+        height: auto;
+        min-height: 100vh;
+    }
+    .main .banner .banner-bg p {
+        font-size: 1.7em;
+        width: 300px;
+    }
+    .main .banner .banner-bg .square-wrapper{
+        left: 5%;
+    }
+    .main .banner .banner-bg .square-wrapper h1{
+        font-size: 1.7em;
+    }
+    .main .banner .banner-bg .square-wrapper .square1{
+        width: 309px;
+        height: 90px;
+    }
+    .main .banner .banner-bg .square-wrapper .square2{
+        width: 309px;
+        height: 90px;
+    }
+    .main .banner .banner-bg .line{
+        top: 40%;
+    }
+    .main .overview .article{
+        padding: 25px;
+    }
+    .main .overview .article p{
+        font-size: 1em;
+    }
+    .main .overview .article h2{
+        padding-bottom: 20px;
+    }
+    .main .overview .center-banner{
+        background-size: auto 100%;
+    }
+    .main .overview .center-banner p{
+        width: 300px;
+        font-size: 1.5em;
+    }
+    .main .graph h2{
+        font-size: 2.1em;
+    }
+    .main .graph .img-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

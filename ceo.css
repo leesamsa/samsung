@@ -1,0 +1,75 @@
+.main{
+    padding-top: 80px;
+    transition: all ease .5s;
+}
+.main .wrap{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* cnb */
+
+.main .wrap .cnb{
+    top: 40px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.main .wrap .cnb li{
+    float: left;
+    font-size: 0.9em;
+}
+.main .wrap .cnb li a{}
+.wrap .cnb li a:last-child{
+    color: #ccc;
+}
+.main .wrap .cnb li a:hover{
+    color:#ccc;
+}
+
+.main h1{
+    font-size: 4.5em;
+    font-weight: normal;
+    padding-top: 80px;
+}
+.main h1 span{
+    font-weight: bold;
+}
+.main section{
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.main section .article{
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.main section .left{
+    float: left;
+}
+.main section .right{
+    float: right;
+}
+
+.main section .article p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    position: relative;
+}
+.main section .article p img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.main section .article .img-wrapper{
+    margin-bottom: 50px;
+}
+.main section .article .img-wrapper img{
+    width: 100%;
+}
+.main section .left .img-wrapper{
+    display: none;
+}

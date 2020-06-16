@@ -1,0 +1,91 @@
+/* .lnb-wrapper */
+
+.main .lnb-wrapper{
+    width: 100%;
+    height: 200px;
+    background-image: url(images/green_health/banner.jpg);
+    background-position: center -360px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.main .lnb-wrapper .wrap{
+    width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.main .lnb-wrapper .square-wrapper{
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.main .lnb-wrapper .square-wrapper .square1{
+    width: 530px;
+    height: 90px;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 20px;
+}
+.main .lnb-wrapper .square-wrapper .square2{
+    width: 360px;
+    height: 90px;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 45px;
+    left: 305px;
+}
+.main .lnb-wrapper .square-wrapper h1{
+    font-size: 3em;
+    font-weight: 400;
+    color:#fff;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+}
+.main .lnb-wrapper .square-wrapper h2{
+    font-size: 1.2em;
+    font-weight: 300;
+    color:#fff;
+    position: absolute;
+    left: 325px;
+    bottom: 67px;
+}
+.main .lnb-wrapper .square-wrapper h2 span{
+    font-weight: 500;
+}
+
+.main .lnb-wrapper .lnb{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.main .lnb-wrapper .lnb li{
+    float: left;
+    margin-right: 30px;
+}
+.main .lnb-wrapper .lnb li a{
+    font-size: 1.1em;
+    font-weight: 100;
+    color: #ffffff;
+    transition: all ease .5s;
+}
+.main .lnb-wrapper .lnb li a:hover{
+    font-weight: 500;
+}
+.main .lnb-wrapper .lnb li.active a{
+    font-weight: 500;
+    position: relative;
+}
+.main .lnb-wrapper .lnb li.active a:after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
